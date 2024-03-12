@@ -17,12 +17,13 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,mjs,json,jsx,html,css}\""
   },
   "dependencies": {
-    "@ws-ui/webform-editor": "0.1.8",
     "@ws-ui/craftjs-core": "^0.2.1-beta.3",
     "@ws-ui/craftjs-layers": "^0.2.1-beta.3",
     "@ws-ui/craftjs-utils": "^0.2.1-beta.3",
+    "@ws-ui/webform-editor": "0.1.8",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "signature_pad": "^4.1.7"
   },
   "devDependencies": {
     "@qodly/cli": "^0.1.23",
