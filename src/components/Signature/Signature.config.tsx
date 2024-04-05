@@ -52,7 +52,7 @@ export default {
       },
     ],
     datasources: {
-      accept: ['blob'],
+      accept: ['image'],
     },
   },
   defaultProps: {
@@ -63,6 +63,8 @@ export default {
     positionButton: 'left',
     style: {
       border: '1px solid black',
+      width: '300px',
+      height: '200px',
     },
   },
 } as T4DComponentConfig<ISignatureProps>;

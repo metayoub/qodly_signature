@@ -72,25 +72,6 @@ const Signature: FC<ISignatureProps> = ({
     }
   }, []);
 
-  useEffect(() => {
-    if (!ds) return;
-
-    const listener = async (/* event */) => {
-      const v = await ds.getValue<any>();
-
-      // setValue(v || name);
-    };
-
-    listener();
-
-    ds.addListener('changed', listener);
-
-    return () => {
-      ds.removeListener('changed', listener);
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [ds]);
-
   const MouseLeave = useCallback(async () => {
     if (!signaturePadRef.current?.isEmpty()) {
       try {
