@@ -2,7 +2,7 @@
   "app_id": "qodly_4b567b435bbfb708df1a",
   "name": "qodly_signature",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "author": {
     "name": "Qodly Team",
@@ -23,7 +23,7 @@
     "signature_pad": "^4.2.0"
   },
   "devDependencies": {
-    "@qodly/cli": "^0.2.15",
+    "@qodly/cli": "^0.2.20",
     "@types/react": "^18.2.74",
     "@types/react-dom": "^18.2.24",
     "@typescript-eslint/eslint-plugin": "^7.5.0",
